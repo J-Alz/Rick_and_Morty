@@ -1,0 +1,206 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+header{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 15%;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #7fdf7783;
+}
+.cargar{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 7%;
+    height: 60%;
+    left: 100px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    text-decoration: none;
+    color: inherit;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.cargar:hover{
+    background-color: rgb(180, 180, 180);
+}
+.container-board{
+    display: flex;
+    width: 100%;
+}
+header > span{
+    font-size: 20px;
+    font-weight: bold;
+}
+.form-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+}
+.form-header > input{
+    width: 60%;
+    padding: 5px 5px;
+}
+.form-header > button{
+    cursor: pointer;
+    padding: 5px 15px;
+    margin-left: 10px;
+    border: 1px solid rgb(52, 128, 45);
+    background-color: rgba(71, 238, 56, 0.575);
+    border-radius: 5px;
+}
+.form-header > button:hover{
+    background-color: rgb(52, 128, 45);
+}
+main{
+    width: 100%;
+    height: 85%;
+    display: grid;
+    grid-template-columns: 15% 85%;
+}
+
+/*CONTENIDO*/
+.slider{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.slider > span {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.form-especies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 84%;
+    border-radius: 5px;
+    border: 1px solid rgb(71, 238, 56);
+}
+.form-especies > div{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(71, 238, 56);
+}
+.btn-a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(71, 238, 56, 0.575);
+    border: 1px solid rgb(52, 128, 45);
+    border-radius: 5px;
+    cursor: pointer;
+    width: 80%;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: inherit;
+    font-size: 15px;
+}
+.btn-a:hover{
+    background-color: rgb(52, 128, 45);
+}
+
+/*BOARD*/
+.page-board{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+.container-board{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 280px;
+    border-radius: 5px;
+    border: 1px solid rgb(52, 128, 45);
+    background-color: rgba(71, 238, 56, 0.322);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    margin: 10px 15px;
+    padding: 10px;
+
+    text-decoration: none;
+    color: inherit;
+}
+.card-img {
+    width: 250px;
+    border-radius: 10px;
+
+}
+.card-span{
+    margin-top: 5px;
+}
+.btn-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(71, 238, 56, 0.575);
+    border: 1px solid rgb(52, 128, 45);
+    border-radius: 5px;
+    cursor: pointer;
+    width: 80%;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: inherit;
+    font-size: 15px;
+}
+.btn-card:hover{
+    background-color: rgb(52, 128, 45);
+}
+
+.contenido-detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.detail{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    justify-items: center;
+    align-items: center;
+    width: 80%;
+    height: 90%;
+    border-radius: 10px;
+    border: 1px solid rgb(52, 128, 45);
+    background-color: rgba(71, 238, 56, 0.322);
+}
+.detail > img{
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    row-gap: 15px;
+}
+.info > span {
+    margin-left: 100px;
+}

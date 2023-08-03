@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+header{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    align-items: center;
+    justify-content: center;
+}
+header > span{
+    font-size: 20px;
+    font-weight: bold;
+}
+main{
+    width: 100%;
+    height: 90%;
+    display: grid;
+    grid-template-columns: 15% 85%;
+}
+
+/*CONTENIDO*/
+.slider{
+    display: flex;
+    justify-content: center;
+    background-color: greenyellow;
+}
+.content-main{
+    background-color: aquamarine;
+}
